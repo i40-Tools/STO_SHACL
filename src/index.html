@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>STO_SHACL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/shacl.css" />
+  </head>
+  <body>
+    <div class="column">
+      <button onclick="onCheck()" id="checkButton">Validate STO against the template</button>
+      <div class="row links">
+        <a href="https://github.com/i40-Tools/StandardOntology" target="_blank" class="link">Standard Ontology</a>
+        <a href="" target="_blank" class="link">Standard Template</a>
+        <a href="https://www.w3.org/TR/shacl/" target="_blank" class="link">Shapes Constraint Language</a>
+      </div>
+    </div>
+    <input type="text" id="filter" placeholder="Specify the subject" oninput="onFilter()" />
+    <div id="search-img-wrap"  onclick="onFilter()">
+      <img src="img/search.png" class="search-img" />
+    </div>
+    <table id="resultTable"></table>
+    <img src="img/spinner.gif" id="spinner" />
+
+    <script src="js/shacl.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/shacl_data.js"></script>
+  </body>
+</html>

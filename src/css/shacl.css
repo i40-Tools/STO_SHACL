@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.links {
+  font-size: 12px;
+  margin: 0 0 10px calc(50% - 200px);
+  width: 400px;
+}
+
+.link {
+  color: black;
+}
+
+#filter {
+  display: none;
+  width: 100%;
+  font-size: 15px;
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+}
+
+#search-img-wrap {
+  background: lightgray;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -40px;
+  right: 0;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+}
+
+.search-img {
+  position: relative;
+  width: 30px;
+  margin-top: 5px;
+}
+
+#resultTable {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#resultTable th, #resultTable td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+}
+
+#resultTable th {
+  background-color: cadetblue;
+  color: white;
+  font-size: 20px;
+}
+
+.subject {
+  vertical-align: middle;
+}
+
+.endline {
+  border-bottom: 1px solid black !important;
+}
+
+#dataTextarea, #shapesTextarea {
+  max-width: 630px;
+  max-height: 330px;
+  min-width: 630px;
+  min-height: 330px;
+  margin-bottom: 20px;
+}
+
+.textarea-headline {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: darkslategray;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  display:flex; 
+  flex-direction: column;
+}
+
+#checkButton {
+  background: goldenrod;
+  width: 400px;
+  height: 50px;
+  margin: 10px 0 0px calc(50% - 200px);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+#spinner {
+  position: absolute;
+  display: none;
+  left: calc(50% - 100px);
+  top: 100px;
+}
