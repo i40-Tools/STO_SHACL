@@ -20,18 +20,22 @@ body {
   height: 40px;
   padding: 0 10px;
   outline: none;
+  position: sticky;
+  top: 0;
 }
 
 #search-img-wrap {
   background: lightgray;
   width: 40px;
   height: 40px;
-  position: absolute;
   margin-top: -40px;
   right: 0;
   text-align: center;
   display: none;
   cursor: pointer;
+  position: sticky;
+  top: 0;
+  float: right;
 }
 
 .search-img {
@@ -57,6 +61,8 @@ body {
   background-color: cadetblue;
   color: white;
   font-size: 20px;
+  position: sticky;
+  top: 40px;
 }
 
 .subject {
