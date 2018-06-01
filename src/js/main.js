@@ -1,6 +1,6 @@
 var reportObj = {}
 
-function onCheck() {
+function onValidate() {
   getData('https://rawgit.com/i40-Tools/StandardOntology/master/sto.ttl')
 }
 
@@ -121,10 +121,12 @@ function addPrefix(uri) {
 function setSpinner(isSpinner) {
   if (isSpinner) {
     document.getElementById('spinner').style.display = 'block'
+    document.getElementById('table-content').style.opacity = 0.4
   } else {
     document.getElementById('filter').style.display = 'block'
     document.getElementById('filter').focus()
     document.getElementById('search-img-wrap').style.display = 'block'
     document.getElementById('spinner').style.display = 'none'
+    document.getElementById('table-content').style.opacity = 1
   }
 }

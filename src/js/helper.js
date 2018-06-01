@@ -230,37 +230,3 @@ let prefixes = [
     uri: 'http://www.w3.org/ns/shacl#'
   }
 ]
-
-/*let prefixes_new = {
-  'http://creativecommons.org/ns#': 'cc',
-  'http://dbpedia.org/ontology#': 'dbo',
-  'http://dbpedia.org/ontology/': 'dbont',
-  'http://dbpedia.org/class/yago/': 'dbpcy',
-  'http://dbpedia.org/property/': 'dbprop',
-  'http://dbpedia.org/resource#': 'dbr',
-  'http://dbpedia.org/resource/Category:': 'dbrc',
-  'http://dbpedia.org/resource/': 'dbres',
-  'http://purl.org/dc/terms/': 'dcterms',
-  'http://purl.org/spar/deo/': 'deo',
-  'http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#': 'dul',
-  'http://purl.org/dc/elements/1.1/': 'dc11',
-  'http://usefulinc.com/ns/doap#': 'doap',
-  'http://xmlns.com/foaf/0.1/': 'foaf',
-  'http://www.geonames.org/ontology#': 'geo',
-  'http://purl.org/linguistics/gold/': 'lingg',
-  'http://purl.org/muto/core#': 'muto',
-  'http://www.w3.org/2002/07/owl#': 'owl',
-  'http://www.w3.org/ns/prov#': 'prov',
-  'https://w3id.org/i40/rami#': 'rami',
-  'http://www.w3.org/1999/02/22-rdf-syntax-ns#': 'rdf',
-  'http://www.w3.org/2000/01/rdf-schema#': 'rdfs',
-  'http://www.w3.org/2004/02/skos/core#': 'skos',
-  'http://schema.org/': 'schema',
-  'https://w3id.org/i40/sto#': 'sto',
-  'http://purl.org/vocab/vann/': 'vann',
-  'http://purl.org/vocommons/voaf#': 'voaf',
-  'http://purl.org/voc/vrank#': 'vocvr',
-  'http://www.wikidata.org/entity/': 'wike',
-  'http://www.w3.org/XML/1998/namespace': 'xml',
-  'http://www.w3.org/2001/XMLSchema#': 'xsd'
-}*/
